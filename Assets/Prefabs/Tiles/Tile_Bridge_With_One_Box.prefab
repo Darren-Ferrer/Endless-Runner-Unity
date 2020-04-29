@@ -136,7 +136,8 @@ GameObject:
   - component: {fileID: 2300760456407746470}
   - component: {fileID: 2300760456407746475}
   - component: {fileID: 2300760456407746472}
-  - component: {fileID: 2300760456407746473}
+  - component: {fileID: 8099156729019514172}
+  - component: {fileID: 205363032713301441}
   m_Layer: 0
   m_Name: blockade
   m_TagString: Untagged
@@ -203,7 +204,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &2300760456407746473
+--- !u!114 &8099156729019514172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300760456407746471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21bff0a047e46c44f95e638478c8c19c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &205363032713301441
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,10 +224,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2300760456407746471}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.0000001, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4684037625150851066
 GameObject:
