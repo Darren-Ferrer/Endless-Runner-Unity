@@ -5,10 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class RetryScreen : MonoBehaviour
 {
+<<<<<<< HEAD
     void OnTriggerEnter(Collider die)
     {
         Destroy(die.gameObject);
         SceneManager.LoadScene("RetryScreen");
+=======
+
+    void OnTriggerEnter(Collider die)
+    {
+        //Destroy(die.gameObject);
+        SceneManager.LoadScene("RetryScreen");
+        PlayerPrefs.SetFloat("Highscore", PlayerMovement.highscore);
+>>>>>>> ebc637f... Testing on new computer, added highscore function
     }
 
     public void toMainMenu()
