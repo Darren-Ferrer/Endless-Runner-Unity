@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class RetryScreen : MonoBehaviour
 {
+
     void OnTriggerEnter(Collider die)
     {
-        Destroy(die.gameObject);
+        //Destroy(die.gameObject);
         SceneManager.LoadScene("RetryScreen");
+        PlayerPrefs.SetFloat("Highscore", PlayerMovement.highscore);
     }
 
     public void toMainMenu()

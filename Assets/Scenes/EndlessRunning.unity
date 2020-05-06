@@ -38,11 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-<<<<<<< HEAD
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
-=======
   m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
->>>>>>> ebc637f... Testing on new computer, added highscore function
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -392,9 +388,7 @@ Transform:
   m_Father: {fileID: 1289075121}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
---- !u!1 &703835747
+--- !u!1 &943420272
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -402,9 +396,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 703835748}
-  - component: {fileID: 703835750}
-  - component: {fileID: 703835749}
+  - component: {fileID: 943420273}
+  - component: {fileID: 943420275}
+  - component: {fileID: 943420274}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -412,13 +406,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &703835748
+--- !u!224 &943420273
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703835747}
+  m_GameObject: {fileID: 943420272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -428,23 +422,23 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -289, y: 230}
+  m_AnchoredPosition: {x: -201, y: 252}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &703835749
+--- !u!114 &943420274
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703835747}
+  m_GameObject: {fileID: 943420272}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -456,22 +450,21 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Score
---- !u!222 &703835750
+  m_Text: 'Score: '
+--- !u!222 &943420275
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703835747}
+  m_GameObject: {fileID: 943420272}
   m_CullTransparentMesh: 0
->>>>>>> ebc637f... Testing on new computer, added highscore function
 --- !u!1 &962490033
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,13 +550,8 @@ GameObject:
   - component: {fileID: 1289075120}
   - component: {fileID: 1289075119}
   - component: {fileID: 1289075117}
-<<<<<<< HEAD
   - component: {fileID: 1289075122}
   - component: {fileID: 1289075118}
-=======
-  - component: {fileID: 1289075118}
-  - component: {fileID: 1289075123}
->>>>>>> ebc637f... Testing on new computer, added highscore function
   m_Layer: 0
   m_Name: PlayerCapsule
   m_TagString: Player
@@ -665,11 +653,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!114 &1289075122
-=======
---- !u!114 &1289075123
->>>>>>> ebc637f... Testing on new computer, added highscore function
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -681,12 +665,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aecbfdc1b59e6b4aabd6558fed742ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  speed: 25
-=======
-  scoreText: {fileID: 703835749}
+  scoreText: {fileID: 943420274}
   speed: 15
->>>>>>> ebc637f... Testing on new computer, added highscore function
   verticalVelocity: 0
 --- !u!1 &1475545592
 GameObject:
@@ -864,11 +844,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   m_UiScaleMode: 0
-=======
-  m_UiScaleMode: 1
->>>>>>> ebc637f... Testing on new computer, added highscore function
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -911,10 +887,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 962490036}
-<<<<<<< HEAD
-=======
-  - {fileID: 703835748}
->>>>>>> ebc637f... Testing on new computer, added highscore function
+  - {fileID: 943420273}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
