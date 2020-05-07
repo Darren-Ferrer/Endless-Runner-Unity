@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         score = score + Time.deltaTime * scoreSpeed;
-        scoreText.text = ((int)score).ToString();
+        scoreText.text = "Score: " + ((int)score).ToString();
 
         if (controller.isGrounded)
         {
