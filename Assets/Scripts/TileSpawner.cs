@@ -8,9 +8,9 @@ public class TileSpawner : MonoBehaviour
     private Transform playerTransform;
     private List<GameObject> activeTiles;
     
-    private float spawnZ = -12.22f;
+    private float spawnLocation = -12.22f;
     private float tileLength = 12.22f;
-    private int amnTilesOnScreen = 7;
+    private int numTiles = 7;
     private float safeZone = 20f;
     private int lastPrefabIndex = 0;
 
@@ -20,7 +20,7 @@ public class TileSpawner : MonoBehaviour
         activeTiles = new List<GameObject>();
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         
-        for(int i = 0; i < amnTilesOnScreen; i++) 
+        for(int i = 0; i < numTiles; i++) 
         {   
             if (i < 2)
             {
@@ -36,7 +36,7 @@ public class TileSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerTransform.position.z - safeZone > (spawnZ - amnTilesOnScreen * tileLength))
+        if (playerTransform.position.z - safeZone > (spawnLocation - numTiles * tileLength))
         {
             SpawnTile();
             DeleteTile();
@@ -55,8 +55,8 @@ public class TileSpawner : MonoBehaviour
             go = Instantiate(tilePrefabs[prefabIndex]) as GameObject;
 
         go.transform.SetParent(transform);
-        go.transform.position = Vector3.forward * spawnZ;
-        spawnZ += tileLength;
+        go.transform.position = Vector3.forward * spawnLocation;
+        spawnLocation += tileLength;
         activeTiles.Add(go);
     }
 
