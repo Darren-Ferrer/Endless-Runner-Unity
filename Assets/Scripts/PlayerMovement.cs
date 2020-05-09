@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController controller;
     public Text scoreText;
     
-    private int nextLevel = 10;
+    private int increment = 15;
     private int speedUp = 1;
     public float speed = 15.0f;
     private float scoreSpeed = 1.0f;
@@ -41,14 +41,14 @@ public class PlayerMovement : MonoBehaviour
             highscore = score;
         }
 
-        if (score >= nextLevel)
+        if (score >= increment)
         {
-            LevelUp();
+            Faster();
         }
         
-        void LevelUp()
+        void Faster()
         {
-            nextLevel = nextLevel + 10;
+            increment = increment + 15;
             speedUp = speedUp + 2;
             scoreSpeed = scoreSpeed + 0.5f;
 
