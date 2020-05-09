@@ -26,4 +26,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
+
+    public void backToMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void credits()
+    {
+        SceneManager.LoadScene(3);
+    }
 }

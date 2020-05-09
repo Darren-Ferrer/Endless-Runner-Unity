@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RetryScreen.unity
     guid: 06ca57977dd8be246af712d1ed0ff8b8
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: e61efb2bca9a9244581a2471403794a7
   m_configObjects: {}
