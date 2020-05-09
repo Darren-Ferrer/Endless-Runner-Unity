@@ -10,16 +10,16 @@ public class SoundEffects : MonoBehaviour
 
     public void playNiceTry()
     {
-        niceTry.play();
+        niceTry.Play();
     }
 
     public void playWelcome()
     {
-        welcome.play();
+        welcome.Play();
     }
 
     public void playRunning()
     {
-        running.play();
+        running.Play();
     }
 }
