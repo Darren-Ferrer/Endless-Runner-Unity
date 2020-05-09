@@ -10,7 +10,7 @@ public class TileSpawner : MonoBehaviour
     
     private float spawnLocation = -12.22f;
     private float tileLength = 12.22f;
-    private int numTiles = 7;
+    private int numTiles = 10;
     private float safeZone = 20f;
     private int lastPrefabIndex = 0;
 
@@ -24,7 +24,7 @@ public class TileSpawner : MonoBehaviour
         {   
             if (i < 2)
             {
-                SpawnTile(0);
+                SpawnTile(0); // spawns the "initial tile" prefab
             }
             else
             {
@@ -43,7 +43,7 @@ public class TileSpawner : MonoBehaviour
         }
     }
 
-    private void SpawnTile(int prefabIndex = -1)
+    private void SpawnTile(int prefabIndex = -1) // spawns a random prefab for tiles
     {
         GameObject go;
 
