@@ -1,0 +1,16 @@
+Bibliography
+
+Assets
+Free Night Sky by qianyuez from Unity Assest Store
+Fantasy Monsters Zolrik by Fantasy Polygon  from Unity Asset Store
+Stylized Grass Texture by LowlyPoly from Unity Assets Store
+ParticleFire by Eric Van de Kerckhove from https://www.raywenderlich.com/138-introduction-to-unity-particle-systems
+
+Audio
+God of War by Bear McCreary from https://www.youtube.com/watch?v=jpyVfd8TyoI
+Sonic X Theme Song by Marc Biagi from https://www.youtube.com/watch?v=VTHsOSGJHN0
+
+Scripts
+TileSpawner by N3K from https://www.epitome.cc/#/download
+PlayerMovement (used basics of the given script) from https://docs.unity3d.com/ScriptReference/CharacterController.Move.html
+
